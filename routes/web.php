@@ -77,6 +77,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('test','Test\PDFController@test');
 Route::get('test-session',function (){
-    return session()->get('sss');
-
+    return "AAAAA";
 });
