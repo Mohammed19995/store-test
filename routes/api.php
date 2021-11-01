@@ -21,3 +21,4 @@ Route::middleware('multiauth:api')->get('/user', function (Request $request) {
 
 // test
 Route::post('test' , 'Test\ApiController@test');
+
